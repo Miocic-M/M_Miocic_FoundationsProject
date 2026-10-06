@@ -396,6 +396,7 @@ GameObject:
   - component: {fileID: 1709727781}
   - component: {fileID: 1709727780}
   - component: {fileID: 1709727779}
+  - component: {fileID: 1709727784}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -523,6 +524,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1709727784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709727778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80e7f36631405c44a54dffda10a50fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PushSpaceToDestory
 --- !u!1001 &6749109867794886458
 PrefabInstance:
   m_ObjectHideFlags: 0
