@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class TransformTranslate : MonoBehaviour
 {
+    public float movementSpeed;
+    public float rotationSpeed;
     void Update()
     {/*
          if (Input.GetKeyDown(KeyCode.W))
@@ -30,9 +32,29 @@ public class TransformTranslate : MonoBehaviour
             
         }*/
 
-        if (Input.GetKeyDown(KeyCode.S))
+        //move forward
+        if (Input.GetKey(KeyCode.S))
         {
-            transform.Translate(0, 10, 0);
-            transform.Translate(-transform.forward)
+            transform.Translate(transform.forward*movementSpeed*Time.deltaTime);
         }
 
+        //move backward
+         if (Input.GetKey(KeyCode.W))
+        {
+            transform.Translate(-transform.forward*movementSpeed*Time.deltaTime);
+        }
+
+        //rotate right
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            transform.Rotate(transform.up*rotationSpeed*Time.deltaTime);
+        }
+
+        //rotate left
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            transform.Rotate((-1)*transform.up*rotationSpeed*Time.deltaTime);
+            Debug.Log("Left Arrow Key Pressed");
+        }
+    }
+}
