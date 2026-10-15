@@ -33,13 +33,13 @@ public class TransformTranslate : MonoBehaviour
         }*/
 
         //move forward
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.W))
         {
             transform.Translate(transform.forward*movementSpeed*Time.deltaTime);
         }
 
         //move backward
-         if (Input.GetKey(KeyCode.W))
+         if (Input.GetKey(KeyCode.S))
         {
             transform.Translate(-transform.forward*movementSpeed*Time.deltaTime);
         }
