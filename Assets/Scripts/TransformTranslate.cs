@@ -54,7 +54,6 @@ public class TransformTranslate : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.Rotate((-1)*transform.up*rotationSpeed*Time.deltaTime);
-            Debug.Log("Left Arrow Key Pressed");
         }
     }
 }
