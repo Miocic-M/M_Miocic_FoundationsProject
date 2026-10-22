@@ -55,17 +55,6 @@ public class TransformTranslate : MonoBehaviour
         {
             transform.Translate(transform.right*movementSpeed*Time.deltaTime);
         }
-
-        //rotate right
-        //if (Input.GetKey(KeyCode.Mouse1))
-        //{
-       //     transform.Rotate(transform.up*rotationSpeed*Time.deltaTime);
-       // }
-
-        //rotate left
-       // if (Input.GetKey(KeyCode.Mouse0))
-        //{
-        //    transform.Rotate((-1)*transform.up*rotationSpeed*Time.deltaTime);
-        //}
+        
     }
 }
