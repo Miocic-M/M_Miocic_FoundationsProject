@@ -220,6 +220,7 @@ GameObject:
   - component: {fileID: 44492126}
   - component: {fileID: 44492128}
   - component: {fileID: 44492127}
+  - component: {fileID: 44492129}
   m_Layer: 0
   m_Name: smallcrate no inner (10)
   m_TagString: Untagged
@@ -299,6 +300,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44492125}
   m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &44492129
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44492125}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &65623806
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,6 +333,7 @@ GameObject:
   - component: {fileID: 65623809}
   - component: {fileID: 65623808}
   - component: {fileID: 65623807}
+  - component: {fileID: 65623810}
   m_Layer: 0
   m_Name: single crate (12)
   m_TagString: Untagged
@@ -389,6 +413,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 273.457}
+--- !u!64 &65623810
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65623806}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &73688125
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,6 +446,7 @@ GameObject:
   - component: {fileID: 73688126}
   - component: {fileID: 73688128}
   - component: {fileID: 73688127}
+  - component: {fileID: 73688129}
   m_Layer: 0
   m_Name: single crate no inner (3)
   m_TagString: Untagged
@@ -479,6 +526,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73688125}
   m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &73688129
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73688125}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &79722891
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,6 +559,7 @@ GameObject:
   - component: {fileID: 79722894}
   - component: {fileID: 79722893}
   - component: {fileID: 79722892}
+  - component: {fileID: 79722895}
   m_Layer: 0
   m_Name: single crate no inner (5)
   m_TagString: Untagged
@@ -569,6 +639,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 893663172}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -178.528}
+--- !u!64 &79722895
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79722891}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &107181343
 GameObject:
   m_ObjectHideFlags: 0
@@ -580,6 +672,7 @@ GameObject:
   - component: {fileID: 107181344}
   - component: {fileID: 107181346}
   - component: {fileID: 107181345}
+  - component: {fileID: 107181347}
   m_Layer: 0
   m_Name: single crate no inner (6)
   m_TagString: Untagged
@@ -659,6 +752,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107181343}
   m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &107181347
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107181343}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &111158702
 GameObject:
   m_ObjectHideFlags: 0
@@ -670,6 +785,7 @@ GameObject:
   - component: {fileID: 111158703}
   - component: {fileID: 111158705}
   - component: {fileID: 111158704}
+  - component: {fileID: 111158706}
   m_Layer: 0
   m_Name: smallcrate no inner (2)
   m_TagString: Untagged
@@ -749,6 +865,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111158702}
   m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &111158706
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111158702}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &111523834
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,6 +898,7 @@ GameObject:
   - component: {fileID: 111523835}
   - component: {fileID: 111523837}
   - component: {fileID: 111523836}
+  - component: {fileID: 111523838}
   m_Layer: 0
   m_Name: smallcrate no inner (9)
   m_TagString: Untagged
@@ -839,6 +978,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111523834}
   m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &111523838
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111523834}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &113320617
 GameObject:
   m_ObjectHideFlags: 0
@@ -850,6 +1011,7 @@ GameObject:
   - component: {fileID: 113320618}
   - component: {fileID: 113320620}
   - component: {fileID: 113320619}
+  - component: {fileID: 113320621}
   m_Layer: 0
   m_Name: smallcrate no inner (8)
   m_TagString: Untagged
@@ -929,6 +1091,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 113320617}
   m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &113320621
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113320617}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &117490246
 GameObject:
   m_ObjectHideFlags: 0
@@ -940,6 +1124,7 @@ GameObject:
   - component: {fileID: 117490247}
   - component: {fileID: 117490249}
   - component: {fileID: 117490248}
+  - component: {fileID: 117490250}
   m_Layer: 0
   m_Name: single crate (1)
   m_TagString: Untagged
@@ -1018,6 +1203,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 117490246}
+  m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &117490250
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117490246}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &141892500
 GameObject:
@@ -1120,6 +1327,7 @@ GameObject:
   - component: {fileID: 162674952}
   - component: {fileID: 162674954}
   - component: {fileID: 162674953}
+  - component: {fileID: 162674955}
   m_Layer: 0
   m_Name: smallcrate flat sides (2)
   m_TagString: Untagged
@@ -1199,6 +1407,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162674951}
   m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &162674955
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162674951}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &169349190
 GameObject:
   m_ObjectHideFlags: 0
@@ -1210,6 +1440,7 @@ GameObject:
   - component: {fileID: 169349193}
   - component: {fileID: 169349192}
   - component: {fileID: 169349191}
+  - component: {fileID: 169349194}
   m_Layer: 0
   m_Name: single crate no inner (6)
   m_TagString: Untagged
@@ -1289,6 +1520,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 893663172}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180.093}
+--- !u!64 &169349194
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169349190}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &189271794
 GameObject:
   m_ObjectHideFlags: 0
@@ -1300,6 +1553,7 @@ GameObject:
   - component: {fileID: 189271797}
   - component: {fileID: 189271796}
   - component: {fileID: 189271795}
+  - component: {fileID: 189271798}
   m_Layer: 0
   m_Name: single crate
   m_TagString: Untagged
@@ -1379,6 +1633,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -21.578}
+--- !u!64 &189271798
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189271794}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3526044742608369498, guid: 1f87388abfc564c45a5c699697aa711a, type: 3}
 --- !u!1 &197696535
 GameObject:
   m_ObjectHideFlags: 0
@@ -1390,6 +1666,7 @@ GameObject:
   - component: {fileID: 197696538}
   - component: {fileID: 197696537}
   - component: {fileID: 197696536}
+  - component: {fileID: 197696539}
   m_Layer: 0
   m_Name: smallcrate no inner (7)
   m_TagString: Untagged
@@ -1469,6 +1746,161 @@ Transform:
   m_Children: []
   m_Father: {fileID: 375138988}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 179.812}
+--- !u!64 &197696539
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197696535}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!1 &215840355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 215840356}
+  - component: {fileID: 215840359}
+  - component: {fileID: 215840358}
+  - component: {fileID: 215840357}
+  m_Layer: 5
+  m_Name: hideimg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &215840356
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215840355}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 633757128}
+  m_Father: {fileID: 1709506043}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &215840357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215840355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 215840358}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &215840358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215840355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &215840359
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215840355}
+  m_CullTransparentMesh: 1
 --- !u!1 &225813344
 GameObject:
   m_ObjectHideFlags: 0
@@ -1480,6 +1912,7 @@ GameObject:
   - component: {fileID: 225813345}
   - component: {fileID: 225813347}
   - component: {fileID: 225813346}
+  - component: {fileID: 225813348}
   m_Layer: 0
   m_Name: single crate flat sides (3)
   m_TagString: Untagged
@@ -1559,6 +1992,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 225813344}
   m_Mesh: {fileID: 48378998208611145, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &225813348
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225813344}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 48378998208611145, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &231716227
 GameObject:
   m_ObjectHideFlags: 0
@@ -1570,6 +2025,7 @@ GameObject:
   - component: {fileID: 231716228}
   - component: {fileID: 231716230}
   - component: {fileID: 231716229}
+  - component: {fileID: 231716231}
   m_Layer: 0
   m_Name: single crate no inner (5)
   m_TagString: Untagged
@@ -1648,6 +2104,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 231716227}
+  m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &231716231
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231716227}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &255474902
 GameObject:
@@ -1750,6 +2228,7 @@ GameObject:
   - component: {fileID: 258730495}
   - component: {fileID: 258730494}
   - component: {fileID: 258730493}
+  - component: {fileID: 258730496}
   m_Layer: 0
   m_Name: single crate (4)
   m_TagString: Untagged
@@ -1829,6 +2308,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 178.091}
+--- !u!64 &258730496
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258730492}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &259947578
 GameObject:
   m_ObjectHideFlags: 0
@@ -1840,6 +2341,7 @@ GameObject:
   - component: {fileID: 259947581}
   - component: {fileID: 259947580}
   - component: {fileID: 259947579}
+  - component: {fileID: 259947582}
   m_Layer: 0
   m_Name: smallcrate flat sides (3)
   m_TagString: Untagged
@@ -1919,6 +2421,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -90.236}
+--- !u!64 &259947582
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259947578}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &276096897
 GameObject:
   m_ObjectHideFlags: 0
@@ -1930,6 +2454,7 @@ GameObject:
   - component: {fileID: 276096898}
   - component: {fileID: 276096900}
   - component: {fileID: 276096899}
+  - component: {fileID: 276096901}
   m_Layer: 0
   m_Name: smallcrate no inner (2)
   m_TagString: Untagged
@@ -2009,6 +2534,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276096897}
   m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &276096901
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276096897}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &286276438
 GameObject:
   m_ObjectHideFlags: 0
@@ -2020,6 +2567,7 @@ GameObject:
   - component: {fileID: 286276439}
   - component: {fileID: 286276441}
   - component: {fileID: 286276440}
+  - component: {fileID: 286276442}
   m_Layer: 0
   m_Name: single crate no inner (5)
   m_TagString: Untagged
@@ -2099,6 +2647,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286276438}
   m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &286276442
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286276438}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &291242708
 GameObject:
   m_ObjectHideFlags: 0
@@ -2110,6 +2680,7 @@ GameObject:
   - component: {fileID: 291242709}
   - component: {fileID: 291242711}
   - component: {fileID: 291242710}
+  - component: {fileID: 291242712}
   m_Layer: 0
   m_Name: single crate flat sides w inner
   m_TagString: Untagged
@@ -2189,6 +2760,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 291242708}
   m_Mesh: {fileID: -4618119346984212664, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &291242712
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291242708}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4618119346984212664, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &317669047
 GameObject:
   m_ObjectHideFlags: 0
@@ -2200,6 +2793,7 @@ GameObject:
   - component: {fileID: 317669048}
   - component: {fileID: 317669050}
   - component: {fileID: 317669049}
+  - component: {fileID: 317669051}
   m_Layer: 0
   m_Name: smallcrate flat sides (3)
   m_TagString: Untagged
@@ -2279,6 +2873,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 317669047}
   m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &317669051
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317669047}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &321344770
 GameObject:
   m_ObjectHideFlags: 0
@@ -2290,6 +2906,7 @@ GameObject:
   - component: {fileID: 321344771}
   - component: {fileID: 321344773}
   - component: {fileID: 321344772}
+  - component: {fileID: 321344774}
   m_Layer: 0
   m_Name: single crate no inner (6)
   m_TagString: Untagged
@@ -2369,6 +2986,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 321344770}
   m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &321344774
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321344770}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &331826843
 GameObject:
   m_ObjectHideFlags: 0
@@ -2420,6 +3059,7 @@ GameObject:
   - component: {fileID: 370916606}
   - component: {fileID: 370916605}
   - component: {fileID: 370916604}
+  - component: {fileID: 370916607}
   m_Layer: 0
   m_Name: smallcrate flat sides (15)
   m_TagString: Untagged
@@ -2499,6 +3139,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -85.337}
+--- !u!64 &370916607
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370916603}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &374366519
 GameObject:
   m_ObjectHideFlags: 0
@@ -2510,6 +3172,7 @@ GameObject:
   - component: {fileID: 374366520}
   - component: {fileID: 374366522}
   - component: {fileID: 374366521}
+  - component: {fileID: 374366523}
   m_Layer: 0
   m_Name: smallcrate flat sides (8)
   m_TagString: Untagged
@@ -2589,6 +3252,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 374366519}
   m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &374366523
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374366519}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &375138987
 GameObject:
   m_ObjectHideFlags: 0
@@ -2643,6 +3328,7 @@ GameObject:
   - component: {fileID: 385259439}
   - component: {fileID: 385259441}
   - component: {fileID: 385259440}
+  - component: {fileID: 385259442}
   m_Layer: 0
   m_Name: single crate flat sidesntop (1)
   m_TagString: Untagged
@@ -2722,6 +3408,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 385259438}
   m_Mesh: {fileID: -1388573630571625986, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &385259442
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385259438}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1388573630571625986, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &409370835
 GameObject:
   m_ObjectHideFlags: 0
@@ -2733,6 +3441,7 @@ GameObject:
   - component: {fileID: 409370838}
   - component: {fileID: 409370837}
   - component: {fileID: 409370836}
+  - component: {fileID: 409370839}
   m_Layer: 0
   m_Name: single crate (5)
   m_TagString: Untagged
@@ -2812,6 +3521,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 183.129}
+--- !u!64 &409370839
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409370835}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &414785689
 GameObject:
   m_ObjectHideFlags: 0
@@ -2823,6 +3554,7 @@ GameObject:
   - component: {fileID: 414785690}
   - component: {fileID: 414785692}
   - component: {fileID: 414785691}
+  - component: {fileID: 414785693}
   m_Layer: 0
   m_Name: single crate no inner (7)
   m_TagString: Untagged
@@ -2902,6 +3634,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 414785689}
   m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &414785693
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414785689}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &438770127
 GameObject:
   m_ObjectHideFlags: 0
@@ -2913,6 +3667,7 @@ GameObject:
   - component: {fileID: 438770130}
   - component: {fileID: 438770129}
   - component: {fileID: 438770128}
+  - component: {fileID: 438770131}
   m_Layer: 0
   m_Name: smallcrate no inner (4)
   m_TagString: Untagged
@@ -2992,6 +3747,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -269.964}
+--- !u!64 &438770131
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438770127}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &439069824
 GameObject:
   m_ObjectHideFlags: 0
@@ -3003,6 +3780,7 @@ GameObject:
   - component: {fileID: 439069825}
   - component: {fileID: 439069827}
   - component: {fileID: 439069826}
+  - component: {fileID: 439069828}
   m_Layer: 0
   m_Name: smallcrate flat sides (1)
   m_TagString: Untagged
@@ -3082,6 +3860,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439069824}
   m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &439069828
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439069824}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &447276329
 GameObject:
   m_ObjectHideFlags: 0
@@ -3093,6 +3893,7 @@ GameObject:
   - component: {fileID: 447276332}
   - component: {fileID: 447276331}
   - component: {fileID: 447276330}
+  - component: {fileID: 447276333}
   m_Layer: 0
   m_Name: smallcrate flat sides (5)
   m_TagString: Untagged
@@ -3172,6 +3973,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -91.654}
+--- !u!64 &447276333
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447276329}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &451777938
 GameObject:
   m_ObjectHideFlags: 0
@@ -3183,6 +4006,7 @@ GameObject:
   - component: {fileID: 451777939}
   - component: {fileID: 451777941}
   - component: {fileID: 451777940}
+  - component: {fileID: 451777942}
   m_Layer: 0
   m_Name: single crate flat sides (1)
   m_TagString: Untagged
@@ -3262,6 +4086,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 451777938}
   m_Mesh: {fileID: 48378998208611145, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &451777942
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451777938}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 48378998208611145, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &457980342
 GameObject:
   m_ObjectHideFlags: 0
@@ -3273,6 +4119,7 @@ GameObject:
   - component: {fileID: 457980343}
   - component: {fileID: 457980345}
   - component: {fileID: 457980344}
+  - component: {fileID: 457980346}
   m_Layer: 0
   m_Name: single crate flat sidesntop (3)
   m_TagString: Untagged
@@ -3352,6 +4199,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457980342}
   m_Mesh: {fileID: -1388573630571625986, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &457980346
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457980342}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1388573630571625986, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &462882980
 GameObject:
   m_ObjectHideFlags: 0
@@ -3363,6 +4232,7 @@ GameObject:
   - component: {fileID: 462882983}
   - component: {fileID: 462882982}
   - component: {fileID: 462882981}
+  - component: {fileID: 462882984}
   m_Layer: 0
   m_Name: single crate (10)
   m_TagString: Untagged
@@ -3442,6 +4312,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 272.048}
+--- !u!64 &462882984
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462882980}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &467592791
 GameObject:
   m_ObjectHideFlags: 0
@@ -3453,6 +4345,7 @@ GameObject:
   - component: {fileID: 467592794}
   - component: {fileID: 467592793}
   - component: {fileID: 467592792}
+  - component: {fileID: 467592795}
   m_Layer: 0
   m_Name: single crate (9)
   m_TagString: Untagged
@@ -3532,6 +4425,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 278.247}
+--- !u!64 &467592795
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467592791}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &468657902
 GameObject:
   m_ObjectHideFlags: 0
@@ -3804,6 +4719,7 @@ GameObject:
   - component: {fileID: 497541106}
   - component: {fileID: 497541105}
   - component: {fileID: 497541104}
+  - component: {fileID: 497541107}
   m_Layer: 0
   m_Name: single crate (13)
   m_TagString: Untagged
@@ -3883,6 +4799,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -89.569, y: -9.555, z: 283.836}
+--- !u!64 &497541107
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497541103}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &540612488
 GameObject:
   m_ObjectHideFlags: 0
@@ -3894,6 +4832,7 @@ GameObject:
   - component: {fileID: 540612489}
   - component: {fileID: 540612491}
   - component: {fileID: 540612490}
+  - component: {fileID: 540612492}
   m_Layer: 0
   m_Name: single crate no inner (4)
   m_TagString: Untagged
@@ -3973,6 +4912,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 540612488}
   m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &540612492
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540612488}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &552325030
 GameObject:
   m_ObjectHideFlags: 0
@@ -3984,6 +4945,7 @@ GameObject:
   - component: {fileID: 552325031}
   - component: {fileID: 552325033}
   - component: {fileID: 552325032}
+  - component: {fileID: 552325034}
   m_Layer: 0
   m_Name: smallcrate (3)
   m_TagString: Untagged
@@ -4063,6 +5025,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552325030}
   m_Mesh: {fileID: -361132155043324539, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &552325034
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552325030}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -361132155043324539, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &609967188
 GameObject:
   m_ObjectHideFlags: 0
@@ -4122,6 +5106,7 @@ GameObject:
   - component: {fileID: 612770151}
   - component: {fileID: 612770153}
   - component: {fileID: 612770152}
+  - component: {fileID: 612770154}
   m_Layer: 0
   m_Name: smallcrate
   m_TagString: Untagged
@@ -4201,6 +5186,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 612770150}
   m_Mesh: {fileID: -361132155043324539, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &612770154
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612770150}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -361132155043324539, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &613052445
 GameObject:
   m_ObjectHideFlags: 0
@@ -4212,6 +5219,7 @@ GameObject:
   - component: {fileID: 613052446}
   - component: {fileID: 613052448}
   - component: {fileID: 613052447}
+  - component: {fileID: 613052449}
   m_Layer: 0
   m_Name: single crate no inner (6)
   m_TagString: Untagged
@@ -4291,6 +5299,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 613052445}
   m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &613052449
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613052445}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &617352039
 GameObject:
   m_ObjectHideFlags: 0
@@ -4302,6 +5332,7 @@ GameObject:
   - component: {fileID: 617352040}
   - component: {fileID: 617352042}
   - component: {fileID: 617352041}
+  - component: {fileID: 617352043}
   m_Layer: 0
   m_Name: smallcrate flat sides
   m_TagString: Untagged
@@ -4381,6 +5412,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 617352039}
   m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &617352043
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617352039}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &619101587
 GameObject:
   m_ObjectHideFlags: 0
@@ -4392,6 +5445,7 @@ GameObject:
   - component: {fileID: 619101588}
   - component: {fileID: 619101590}
   - component: {fileID: 619101589}
+  - component: {fileID: 619101591}
   m_Layer: 0
   m_Name: smallcrate no inner (3)
   m_TagString: Untagged
@@ -4471,6 +5525,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619101587}
   m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &619101591
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619101587}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &619549860
 GameObject:
   m_ObjectHideFlags: 0
@@ -4482,6 +5558,7 @@ GameObject:
   - component: {fileID: 619549863}
   - component: {fileID: 619549862}
   - component: {fileID: 619549861}
+  - component: {fileID: 619549864}
   m_Layer: 0
   m_Name: single crate (11)
   m_TagString: Untagged
@@ -4561,6 +5638,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 269.031}
+--- !u!64 &619549864
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619549860}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &630576480
 GameObject:
   m_ObjectHideFlags: 0
@@ -4572,6 +5671,7 @@ GameObject:
   - component: {fileID: 630576481}
   - component: {fileID: 630576483}
   - component: {fileID: 630576482}
+  - component: {fileID: 630576484}
   m_Layer: 0
   m_Name: single crate no inner (5)
   m_TagString: Untagged
@@ -4651,6 +5751,167 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 630576480}
   m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &630576484
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630576480}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!1 &633757127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 633757128}
+  - component: {fileID: 633757130}
+  - component: {fileID: 633757129}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &633757128
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633757127}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 215840356}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &633757129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633757127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'hide img
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 0
+  m_fontSizeMax: 0
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &633757130
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633757127}
+  m_CullTransparentMesh: 1
 --- !u!1 &634661043
 GameObject:
   m_ObjectHideFlags: 0
@@ -4705,6 +5966,7 @@ GameObject:
   - component: {fileID: 636948754}
   - component: {fileID: 636948753}
   - component: {fileID: 636948752}
+  - component: {fileID: 636948755}
   m_Layer: 0
   m_Name: smallcrate flat sides (10)
   m_TagString: Untagged
@@ -4784,6 +6046,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -84.639}
+--- !u!64 &636948755
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636948751}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &650929132
 GameObject:
   m_ObjectHideFlags: 0
@@ -4795,6 +6079,7 @@ GameObject:
   - component: {fileID: 650929133}
   - component: {fileID: 650929135}
   - component: {fileID: 650929134}
+  - component: {fileID: 650929136}
   m_Layer: 0
   m_Name: single crate flat sides (3)
   m_TagString: Untagged
@@ -4874,6 +6159,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650929132}
   m_Mesh: {fileID: 48378998208611145, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &650929136
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650929132}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 48378998208611145, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &670968624
 GameObject:
   m_ObjectHideFlags: 0
@@ -4885,6 +6192,7 @@ GameObject:
   - component: {fileID: 670968625}
   - component: {fileID: 670968627}
   - component: {fileID: 670968626}
+  - component: {fileID: 670968628}
   m_Layer: 0
   m_Name: single crate
   m_TagString: Untagged
@@ -4964,6 +6272,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 670968624}
   m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &670968628
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670968624}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &695858522
 GameObject:
   m_ObjectHideFlags: 0
@@ -4975,6 +6305,7 @@ GameObject:
   - component: {fileID: 695858523}
   - component: {fileID: 695858525}
   - component: {fileID: 695858524}
+  - component: {fileID: 695858526}
   m_Layer: 0
   m_Name: smallcrate no inner (1)
   m_TagString: Untagged
@@ -5054,6 +6385,107 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 695858522}
   m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &695858526
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695858522}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!1 &703765975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 703765978}
+  - component: {fileID: 703765977}
+  - component: {fileID: 703765976}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &703765976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703765975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.UI.InputSystemUIInputModule
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
+--- !u!114 &703765977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703765975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &703765978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703765975}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &743989990
 GameObject:
   m_ObjectHideFlags: 0
@@ -5065,6 +6497,7 @@ GameObject:
   - component: {fileID: 743989991}
   - component: {fileID: 743989993}
   - component: {fileID: 743989992}
+  - component: {fileID: 743989994}
   m_Layer: 0
   m_Name: smallcrate no inner
   m_TagString: Untagged
@@ -5144,6 +6577,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 743989990}
   m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &743989994
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743989990}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &756994618
 GameObject:
   m_ObjectHideFlags: 0
@@ -5155,6 +6610,7 @@ GameObject:
   - component: {fileID: 756994621}
   - component: {fileID: 756994620}
   - component: {fileID: 756994619}
+  - component: {fileID: 756994622}
   m_Layer: 0
   m_Name: smallcrate flat sides (11)
   m_TagString: Untagged
@@ -5234,6 +6690,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -81.878}
+--- !u!64 &756994622
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756994618}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &762351055
 GameObject:
   m_ObjectHideFlags: 0
@@ -5245,6 +6723,7 @@ GameObject:
   - component: {fileID: 762351056}
   - component: {fileID: 762351058}
   - component: {fileID: 762351057}
+  - component: {fileID: 762351059}
   m_Layer: 0
   m_Name: smallcrate flat sidesntop (1)
   m_TagString: Untagged
@@ -5323,6 +6802,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762351055}
+  m_Mesh: {fileID: -5545185503342150676, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &762351059
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762351055}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5545185503342150676, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &800275215
 GameObject:
@@ -5426,6 +6927,7 @@ GameObject:
   - component: {fileID: 802529144}
   - component: {fileID: 802529143}
   - component: {fileID: 802529142}
+  - component: {fileID: 802529145}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -5526,6 +7028,165 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 802529140}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &802529145
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802529140}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &830230026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 830230027}
+  - component: {fileID: 830230029}
+  - component: {fileID: 830230028}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &830230027
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830230026}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1941243526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &830230028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830230026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Button
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 0
+  m_fontSizeMax: 0
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &830230029
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830230026}
+  m_CullTransparentMesh: 1
 --- !u!1 &834593233
 GameObject:
   m_ObjectHideFlags: 0
@@ -5537,6 +7198,7 @@ GameObject:
   - component: {fileID: 834593234}
   - component: {fileID: 834593236}
   - component: {fileID: 834593235}
+  - component: {fileID: 834593237}
   m_Layer: 0
   m_Name: single crate (1)
   m_TagString: Untagged
@@ -5615,6 +7277,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834593233}
+  m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &834593237
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834593233}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &870457545
 GameObject:
@@ -5799,6 +7483,7 @@ GameObject:
   - component: {fileID: 908187809}
   - component: {fileID: 908187811}
   - component: {fileID: 908187810}
+  - component: {fileID: 908187812}
   m_Layer: 0
   m_Name: smallcrate
   m_TagString: Untagged
@@ -5878,6 +7563,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 908187808}
   m_Mesh: {fileID: -361132155043324539, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &908187812
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908187808}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -361132155043324539, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &908968849
 GameObject:
   m_ObjectHideFlags: 0
@@ -5889,6 +7596,7 @@ GameObject:
   - component: {fileID: 908968852}
   - component: {fileID: 908968851}
   - component: {fileID: 908968850}
+  - component: {fileID: 908968853}
   m_Layer: 0
   m_Name: smallcrate no inner (1)
   m_TagString: Untagged
@@ -5968,6 +7676,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -93.221}
+--- !u!64 &908968853
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908968849}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &925133833
 GameObject:
   m_ObjectHideFlags: 0
@@ -5979,6 +7709,7 @@ GameObject:
   - component: {fileID: 925133834}
   - component: {fileID: 925133836}
   - component: {fileID: 925133835}
+  - component: {fileID: 925133837}
   m_Layer: 0
   m_Name: single crate (2)
   m_TagString: Untagged
@@ -6058,6 +7789,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 925133833}
   m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &925133837
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925133833}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &942131048
 GameObject:
   m_ObjectHideFlags: 0
@@ -6069,6 +7822,7 @@ GameObject:
   - component: {fileID: 942131049}
   - component: {fileID: 942131051}
   - component: {fileID: 942131050}
+  - component: {fileID: 942131052}
   m_Layer: 0
   m_Name: single crate no inner (4)
   m_TagString: Untagged
@@ -6147,6 +7901,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942131048}
+  m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &942131052
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942131048}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &942280983
 GameObject:
@@ -6249,6 +8025,8 @@ GameObject:
   - component: {fileID: 954217269}
   - component: {fileID: 954217268}
   - component: {fileID: 954217267}
+  - component: {fileID: 954217271}
+  - component: {fileID: 954217270}
   m_Layer: 0
   m_Name: single crate (7)
   m_TagString: Untagged
@@ -6328,6 +8106,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -89.65}
+--- !u!64 &954217270
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954217266}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3526044742608369498, guid: 1f87388abfc564c45a5c699697aa711a, type: 3}
+--- !u!64 &954217271
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954217266}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3526044742608369498, guid: 1f87388abfc564c45a5c699697aa711a, type: 3}
 --- !u!1 &961994759
 GameObject:
   m_ObjectHideFlags: 0
@@ -6339,6 +8161,7 @@ GameObject:
   - component: {fileID: 961994762}
   - component: {fileID: 961994761}
   - component: {fileID: 961994760}
+  - component: {fileID: 961994763}
   m_Layer: 0
   m_Name: smallcrate no inner (3)
   m_TagString: Untagged
@@ -6418,6 +8241,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -270.75}
+--- !u!64 &961994763
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961994759}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &966129448
 GameObject:
   m_ObjectHideFlags: 0
@@ -6429,6 +8274,7 @@ GameObject:
   - component: {fileID: 966129449}
   - component: {fileID: 966129451}
   - component: {fileID: 966129450}
+  - component: {fileID: 966129452}
   m_Layer: 0
   m_Name: single crate flat sides
   m_TagString: Untagged
@@ -6507,6 +8353,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 966129448}
+  m_Mesh: {fileID: 48378998208611145, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &966129452
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966129448}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: 48378998208611145, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &977897368
 GameObject:
@@ -6609,6 +8477,7 @@ GameObject:
   - component: {fileID: 992899412}
   - component: {fileID: 992899414}
   - component: {fileID: 992899413}
+  - component: {fileID: 992899415}
   m_Layer: 0
   m_Name: single crate flat sides (2)
   m_TagString: Untagged
@@ -6688,6 +8557,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 992899411}
   m_Mesh: {fileID: 48378998208611145, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &992899415
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992899411}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 48378998208611145, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1011804564
 GameObject:
   m_ObjectHideFlags: 0
@@ -6699,6 +8590,7 @@ GameObject:
   - component: {fileID: 1011804567}
   - component: {fileID: 1011804566}
   - component: {fileID: 1011804565}
+  - component: {fileID: 1011804568}
   m_Layer: 0
   m_Name: smallcrate flat sides (2)
   m_TagString: Untagged
@@ -6778,6 +8670,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 97.47}
+--- !u!64 &1011804568
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011804564}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1025543163
 GameObject:
   m_ObjectHideFlags: 0
@@ -6789,6 +8703,7 @@ GameObject:
   - component: {fileID: 1025543166}
   - component: {fileID: 1025543165}
   - component: {fileID: 1025543164}
+  - component: {fileID: 1025543167}
   m_Layer: 0
   m_Name: smallcrate no inner (2)
   m_TagString: Untagged
@@ -6868,6 +8783,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -183.534}
+--- !u!64 &1025543167
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025543163}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1033744072
 GameObject:
   m_ObjectHideFlags: 0
@@ -6880,6 +8817,7 @@ GameObject:
   - component: {fileID: 1033744076}
   - component: {fileID: 1033744075}
   - component: {fileID: 1033744074}
+  - component: {fileID: 1033744077}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -6980,6 +8918,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1033744072}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &1033744077
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033744072}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1036208347
 GameObject:
   m_ObjectHideFlags: 0
@@ -6991,6 +8951,7 @@ GameObject:
   - component: {fileID: 1036208348}
   - component: {fileID: 1036208350}
   - component: {fileID: 1036208349}
+  - component: {fileID: 1036208351}
   m_Layer: 0
   m_Name: single crate no inner (2)
   m_TagString: Untagged
@@ -7070,6 +9031,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1036208347}
   m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1036208351
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036208347}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1074782728
 GameObject:
   m_ObjectHideFlags: 0
@@ -7081,6 +9064,7 @@ GameObject:
   - component: {fileID: 1074782731}
   - component: {fileID: 1074782730}
   - component: {fileID: 1074782729}
+  - component: {fileID: 1074782732}
   m_Layer: 0
   m_Name: single crate (2)
   m_TagString: Untagged
@@ -7160,6 +9144,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 268.508}
+--- !u!64 &1074782732
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074782728}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1102044480
 GameObject:
   m_ObjectHideFlags: 0
@@ -7171,6 +9177,7 @@ GameObject:
   - component: {fileID: 1102044483}
   - component: {fileID: 1102044482}
   - component: {fileID: 1102044481}
+  - component: {fileID: 1102044484}
   m_Layer: 0
   m_Name: smallcrate no inner (7)
   m_TagString: Untagged
@@ -7250,6 +9257,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -266.186}
+--- !u!64 &1102044484
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102044480}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1107065668
 GameObject:
   m_ObjectHideFlags: 0
@@ -7261,6 +9290,7 @@ GameObject:
   - component: {fileID: 1107065671}
   - component: {fileID: 1107065670}
   - component: {fileID: 1107065669}
+  - component: {fileID: 1107065672}
   m_Layer: 0
   m_Name: smallcrate flat sides (4)
   m_TagString: Untagged
@@ -7340,6 +9370,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -87.857}
+--- !u!64 &1107065672
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107065668}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1139931291
 GameObject:
   m_ObjectHideFlags: 0
@@ -7351,6 +9403,7 @@ GameObject:
   - component: {fileID: 1139931292}
   - component: {fileID: 1139931294}
   - component: {fileID: 1139931293}
+  - component: {fileID: 1139931295}
   m_Layer: 0
   m_Name: smallcrate flat sides (1)
   m_TagString: Untagged
@@ -7430,6 +9483,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1139931291}
   m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1139931295
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139931291}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1151289725
 GameObject:
   m_ObjectHideFlags: 0
@@ -7441,6 +9516,7 @@ GameObject:
   - component: {fileID: 1151289728}
   - component: {fileID: 1151289727}
   - component: {fileID: 1151289726}
+  - component: {fileID: 1151289729}
   m_Layer: 0
   m_Name: single crate (6)
   m_TagString: Untagged
@@ -7520,6 +9596,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 273.112}
+--- !u!64 &1151289729
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151289725}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1152854081
 GameObject:
   m_ObjectHideFlags: 0
@@ -7531,6 +9629,7 @@ GameObject:
   - component: {fileID: 1152854084}
   - component: {fileID: 1152854083}
   - component: {fileID: 1152854082}
+  - component: {fileID: 1152854085}
   m_Layer: 0
   m_Name: smallcrate no inner (2)
   m_TagString: Untagged
@@ -7610,6 +9709,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 331826844}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 178.583}
+--- !u!64 &1152854085
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152854081}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1168634138
 GameObject:
   m_ObjectHideFlags: 0
@@ -7621,6 +9742,7 @@ GameObject:
   - component: {fileID: 1168634139}
   - component: {fileID: 1168634141}
   - component: {fileID: 1168634140}
+  - component: {fileID: 1168634142}
   m_Layer: 0
   m_Name: smallcrate flat sidesntop (3)
   m_TagString: Untagged
@@ -7700,6 +9822,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168634138}
   m_Mesh: {fileID: -5545185503342150676, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1168634142
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168634138}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5545185503342150676, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1191666233
 GameObject:
   m_ObjectHideFlags: 0
@@ -7711,6 +9855,7 @@ GameObject:
   - component: {fileID: 1191666234}
   - component: {fileID: 1191666236}
   - component: {fileID: 1191666235}
+  - component: {fileID: 1191666237}
   m_Layer: 0
   m_Name: smallcrate (1)
   m_TagString: Untagged
@@ -7790,6 +9935,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191666233}
   m_Mesh: {fileID: -361132155043324539, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1191666237
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191666233}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -361132155043324539, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1197433877
 GameObject:
   m_ObjectHideFlags: 0
@@ -7801,6 +9968,7 @@ GameObject:
   - component: {fileID: 1197433878}
   - component: {fileID: 1197433880}
   - component: {fileID: 1197433879}
+  - component: {fileID: 1197433881}
   m_Layer: 0
   m_Name: smallcrate flat sidesntop (3)
   m_TagString: Untagged
@@ -7880,6 +10048,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1197433877}
   m_Mesh: {fileID: -5545185503342150676, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1197433881
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197433877}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5545185503342150676, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1206572833
 GameObject:
   m_ObjectHideFlags: 0
@@ -7891,6 +10081,7 @@ GameObject:
   - component: {fileID: 1206572834}
   - component: {fileID: 1206572836}
   - component: {fileID: 1206572835}
+  - component: {fileID: 1206572837}
   m_Layer: 0
   m_Name: smallcrate flat sidesntop (5)
   m_TagString: Untagged
@@ -7969,6 +10160,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1206572833}
+  m_Mesh: {fileID: -5545185503342150676, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1206572837
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206572833}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5545185503342150676, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1207515214
 GameObject:
@@ -8071,6 +10284,7 @@ GameObject:
   - component: {fileID: 1209187885}
   - component: {fileID: 1209187884}
   - component: {fileID: 1209187883}
+  - component: {fileID: 1209187886}
   m_Layer: 0
   m_Name: single crate (3)
   m_TagString: Untagged
@@ -8150,6 +10364,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 176.377}
+--- !u!64 &1209187886
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209187882}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1230532993
 GameObject:
   m_ObjectHideFlags: 0
@@ -8283,6 +10519,7 @@ GameObject:
   - component: {fileID: 1255747778}
   - component: {fileID: 1255747780}
   - component: {fileID: 1255747779}
+  - component: {fileID: 1255747781}
   m_Layer: 0
   m_Name: smallcrate no inner (1)
   m_TagString: Untagged
@@ -8362,6 +10599,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255747777}
   m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1255747781
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255747777}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1267324447
 GameObject:
   m_ObjectHideFlags: 0
@@ -8373,6 +10632,7 @@ GameObject:
   - component: {fileID: 1267324448}
   - component: {fileID: 1267324450}
   - component: {fileID: 1267324449}
+  - component: {fileID: 1267324451}
   m_Layer: 0
   m_Name: smallcrate flat sidesntop (4)
   m_TagString: Untagged
@@ -8452,6 +10712,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1267324447}
   m_Mesh: {fileID: -5545185503342150676, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1267324451
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267324447}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5545185503342150676, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1271285597
 GameObject:
   m_ObjectHideFlags: 0
@@ -8463,6 +10745,7 @@ GameObject:
   - component: {fileID: 1271285598}
   - component: {fileID: 1271285600}
   - component: {fileID: 1271285599}
+  - component: {fileID: 1271285601}
   m_Layer: 0
   m_Name: single crate no inner (3)
   m_TagString: Untagged
@@ -8542,6 +10825,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1271285597}
   m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1271285601
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271285597}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1272316783
 GameObject:
   m_ObjectHideFlags: 0
@@ -8553,6 +10858,7 @@ GameObject:
   - component: {fileID: 1272316784}
   - component: {fileID: 1272316786}
   - component: {fileID: 1272316785}
+  - component: {fileID: 1272316787}
   m_Layer: 0
   m_Name: single crate flat sidesntop (2)
   m_TagString: Untagged
@@ -8632,6 +10938,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272316783}
   m_Mesh: {fileID: -1388573630571625986, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1272316787
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272316783}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1388573630571625986, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1307150088
 GameObject:
   m_ObjectHideFlags: 0
@@ -8643,6 +10971,7 @@ GameObject:
   - component: {fileID: 1307150091}
   - component: {fileID: 1307150090}
   - component: {fileID: 1307150089}
+  - component: {fileID: 1307150092}
   m_Layer: 0
   m_Name: single crate no inner (6)
   m_TagString: Untagged
@@ -8722,6 +11051,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 331826844}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -91.425}
+--- !u!64 &1307150092
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307150088}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1342198806
 GameObject:
   m_ObjectHideFlags: 0
@@ -8733,6 +11084,7 @@ GameObject:
   - component: {fileID: 1342198807}
   - component: {fileID: 1342198809}
   - component: {fileID: 1342198808}
+  - component: {fileID: 1342198810}
   m_Layer: 0
   m_Name: single crate flat sidesntop (2)
   m_TagString: Untagged
@@ -8811,6 +11163,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1342198806}
+  m_Mesh: {fileID: -1388573630571625986, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1342198810
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342198806}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: -1388573630571625986, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1349880548
 GameObject:
@@ -9015,6 +11389,7 @@ GameObject:
   - component: {fileID: 1369405320}
   - component: {fileID: 1369405319}
   - component: {fileID: 1369405318}
+  - component: {fileID: 1369405321}
   m_Layer: 0
   m_Name: smallcrate flat sides (6)
   m_TagString: Untagged
@@ -9094,6 +11469,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -92.062}
+--- !u!64 &1369405321
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369405317}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1371508725
 GameObject:
   m_ObjectHideFlags: 0
@@ -9105,6 +11502,7 @@ GameObject:
   - component: {fileID: 1371508726}
   - component: {fileID: 1371508728}
   - component: {fileID: 1371508727}
+  - component: {fileID: 1371508729}
   m_Layer: 0
   m_Name: smallcrate flat sides
   m_TagString: Untagged
@@ -9184,6 +11582,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1371508725}
   m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1371508729
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371508725}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1378348955
 GameObject:
   m_ObjectHideFlags: 0
@@ -9195,6 +11615,7 @@ GameObject:
   - component: {fileID: 1378348958}
   - component: {fileID: 1378348957}
   - component: {fileID: 1378348956}
+  - component: {fileID: 1378348959}
   m_Layer: 0
   m_Name: smallcrate no inner (5)
   m_TagString: Untagged
@@ -9274,6 +11695,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -273.645}
+--- !u!64 &1378348959
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378348955}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1392777389
 GameObject:
   m_ObjectHideFlags: 0
@@ -9285,6 +11728,7 @@ GameObject:
   - component: {fileID: 1392777390}
   - component: {fileID: 1392777392}
   - component: {fileID: 1392777391}
+  - component: {fileID: 1392777393}
   m_Layer: 0
   m_Name: smallcrate flat sidesntop (4)
   m_TagString: Untagged
@@ -9364,6 +11808,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392777389}
   m_Mesh: {fileID: -5545185503342150676, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1392777393
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392777389}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5545185503342150676, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1393589075
 GameObject:
   m_ObjectHideFlags: 0
@@ -9375,6 +11841,7 @@ GameObject:
   - component: {fileID: 1393589076}
   - component: {fileID: 1393589078}
   - component: {fileID: 1393589077}
+  - component: {fileID: 1393589079}
   m_Layer: 0
   m_Name: smallcrate no inner (11)
   m_TagString: Untagged
@@ -9454,6 +11921,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1393589075}
   m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1393589079
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393589075}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1411075227
 GameObject:
   m_ObjectHideFlags: 0
@@ -9465,6 +11954,7 @@ GameObject:
   - component: {fileID: 1411075228}
   - component: {fileID: 1411075230}
   - component: {fileID: 1411075229}
+  - component: {fileID: 1411075231}
   m_Layer: 0
   m_Name: smallcrate no inner (10)
   m_TagString: Untagged
@@ -9544,6 +12034,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1411075227}
   m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1411075231
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411075227}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1423440274
 GameObject:
   m_ObjectHideFlags: 0
@@ -9555,6 +12067,7 @@ GameObject:
   - component: {fileID: 1423440275}
   - component: {fileID: 1423440277}
   - component: {fileID: 1423440276}
+  - component: {fileID: 1423440278}
   m_Layer: 0
   m_Name: smallcrate flat sides (1)
   m_TagString: Untagged
@@ -9634,6 +12147,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423440274}
   m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1423440278
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423440274}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1433510107
 GameObject:
   m_ObjectHideFlags: 0
@@ -9645,6 +12180,7 @@ GameObject:
   - component: {fileID: 1433510108}
   - component: {fileID: 1433510110}
   - component: {fileID: 1433510109}
+  - component: {fileID: 1433510111}
   m_Layer: 0
   m_Name: single crate flat sides
   m_TagString: Untagged
@@ -9724,6 +12260,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433510107}
   m_Mesh: {fileID: 48378998208611145, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1433510111
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433510107}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 48378998208611145, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1437135490
 GameObject:
   m_ObjectHideFlags: 0
@@ -9735,6 +12293,7 @@ GameObject:
   - component: {fileID: 1437135491}
   - component: {fileID: 1437135493}
   - component: {fileID: 1437135492}
+  - component: {fileID: 1437135494}
   m_Layer: 0
   m_Name: smallcrate flat sides (2)
   m_TagString: Untagged
@@ -9814,6 +12373,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437135490}
   m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1437135494
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437135490}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1439924123
 GameObject:
   m_ObjectHideFlags: 0
@@ -9825,6 +12406,7 @@ GameObject:
   - component: {fileID: 1439924124}
   - component: {fileID: 1439924126}
   - component: {fileID: 1439924125}
+  - component: {fileID: 1439924127}
   m_Layer: 0
   m_Name: smallcrate flat sides (6)
   m_TagString: Untagged
@@ -9904,6 +12486,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1439924123}
   m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1439924127
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439924123}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1440105764
 GameObject:
   m_ObjectHideFlags: 0
@@ -9915,6 +12519,7 @@ GameObject:
   - component: {fileID: 1440105767}
   - component: {fileID: 1440105766}
   - component: {fileID: 1440105765}
+  - component: {fileID: 1440105768}
   m_Layer: 0
   m_Name: single crate (8)
   m_TagString: Untagged
@@ -9994,6 +12599,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -91.505}
+--- !u!64 &1440105768
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440105764}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3526044742608369498, guid: 1f87388abfc564c45a5c699697aa711a, type: 3}
 --- !u!1 &1441411009
 GameObject:
   m_ObjectHideFlags: 0
@@ -10005,6 +12632,7 @@ GameObject:
   - component: {fileID: 1441411012}
   - component: {fileID: 1441411011}
   - component: {fileID: 1441411010}
+  - component: {fileID: 1441411013}
   m_Layer: 0
   m_Name: smallcrate flat sides (1)
   m_TagString: Untagged
@@ -10084,6 +12712,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -20.761}
+--- !u!64 &1441411013
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441411009}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1446374830
 GameObject:
   m_ObjectHideFlags: 0
@@ -10095,6 +12745,7 @@ GameObject:
   - component: {fileID: 1446374831}
   - component: {fileID: 1446374833}
   - component: {fileID: 1446374832}
+  - component: {fileID: 1446374834}
   m_Layer: 0
   m_Name: single crate no inner
   m_TagString: Untagged
@@ -10174,6 +12825,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1446374830}
   m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1446374834
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446374830}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2997217828454359157, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1469159153
 GameObject:
   m_ObjectHideFlags: 0
@@ -10185,6 +12858,7 @@ GameObject:
   - component: {fileID: 1469159154}
   - component: {fileID: 1469159156}
   - component: {fileID: 1469159155}
+  - component: {fileID: 1469159157}
   m_Layer: 0
   m_Name: smallcrate no inner (2)
   m_TagString: Untagged
@@ -10264,6 +12938,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1469159153}
   m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1469159157
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469159153}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1479666625
 GameObject:
   m_ObjectHideFlags: 0
@@ -10275,6 +12971,7 @@ GameObject:
   - component: {fileID: 1479666626}
   - component: {fileID: 1479666628}
   - component: {fileID: 1479666627}
+  - component: {fileID: 1479666629}
   m_Layer: 0
   m_Name: smallcrate (2)
   m_TagString: Untagged
@@ -10354,6 +13051,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479666625}
   m_Mesh: {fileID: -361132155043324539, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1479666629
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479666625}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -361132155043324539, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1513052991
 GameObject:
   m_ObjectHideFlags: 0
@@ -10365,6 +13084,7 @@ GameObject:
   - component: {fileID: 1513052994}
   - component: {fileID: 1513052993}
   - component: {fileID: 1513052992}
+  - component: {fileID: 1513052995}
   m_Layer: 0
   m_Name: smallcrate flat sides (8)
   m_TagString: Untagged
@@ -10444,6 +13164,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -85.212}
+--- !u!64 &1513052995
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513052991}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1514881448
 GameObject:
   m_ObjectHideFlags: 0
@@ -10455,6 +13197,7 @@ GameObject:
   - component: {fileID: 1514881449}
   - component: {fileID: 1514881451}
   - component: {fileID: 1514881450}
+  - component: {fileID: 1514881452}
   m_Layer: 0
   m_Name: smallcrate no inner
   m_TagString: Untagged
@@ -10534,6 +13277,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1514881448}
   m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1514881452
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514881448}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1523400428
 GameObject:
   m_ObjectHideFlags: 0
@@ -10545,6 +13310,7 @@ GameObject:
   - component: {fileID: 1523400429}
   - component: {fileID: 1523400431}
   - component: {fileID: 1523400430}
+  - component: {fileID: 1523400432}
   m_Layer: 0
   m_Name: single crate flat sides (2)
   m_TagString: Untagged
@@ -10624,6 +13390,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1523400428}
   m_Mesh: {fileID: 48378998208611145, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1523400432
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523400428}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 48378998208611145, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1548447767
 GameObject:
   m_ObjectHideFlags: 0
@@ -10635,6 +13423,7 @@ GameObject:
   - component: {fileID: 1548447768}
   - component: {fileID: 1548447770}
   - component: {fileID: 1548447769}
+  - component: {fileID: 1548447771}
   m_Layer: 0
   m_Name: smallcrate flat sidesntop (2)
   m_TagString: Untagged
@@ -10714,6 +13503,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1548447767}
   m_Mesh: {fileID: -5545185503342150676, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1548447771
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548447767}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5545185503342150676, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1571607120
 GameObject:
   m_ObjectHideFlags: 0
@@ -10725,6 +13536,7 @@ GameObject:
   - component: {fileID: 1571607123}
   - component: {fileID: 1571607122}
   - component: {fileID: 1571607121}
+  - component: {fileID: 1571607124}
   m_Layer: 0
   m_Name: smallcrate flat sides (14)
   m_TagString: Untagged
@@ -10804,6 +13616,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 5.248}
+--- !u!64 &1571607124
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571607120}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1589699564
 GameObject:
   m_ObjectHideFlags: 0
@@ -10905,6 +13739,7 @@ GameObject:
   - component: {fileID: 1594642245}
   - component: {fileID: 1594642244}
   - component: {fileID: 1594642243}
+  - component: {fileID: 1594642246}
   m_Layer: 0
   m_Name: smallcrate flat sides (12)
   m_TagString: Untagged
@@ -10984,6 +13819,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 5.248}
+--- !u!64 &1594642246
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594642242}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1614351393
 GameObject:
   m_ObjectHideFlags: 0
@@ -10995,6 +13852,7 @@ GameObject:
   - component: {fileID: 1614351396}
   - component: {fileID: 1614351395}
   - component: {fileID: 1614351394}
+  - component: {fileID: 1614351397}
   m_Layer: 0
   m_Name: smallcrate no inner (8)
   m_TagString: Untagged
@@ -11074,6 +13932,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 375138988}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 270.016}
+--- !u!64 &1614351397
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614351393}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1621888165
 GameObject:
   m_ObjectHideFlags: 0
@@ -11085,6 +13965,7 @@ GameObject:
   - component: {fileID: 1621888168}
   - component: {fileID: 1621888167}
   - component: {fileID: 1621888166}
+  - component: {fileID: 1621888169}
   m_Layer: 0
   m_Name: smallcrate no inner (6)
   m_TagString: Untagged
@@ -11164,6 +14045,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -273.645}
+--- !u!64 &1621888169
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621888165}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1658885218
 GameObject:
   m_ObjectHideFlags: 0
@@ -11175,6 +14078,7 @@ GameObject:
   - component: {fileID: 1658885219}
   - component: {fileID: 1658885221}
   - component: {fileID: 1658885220}
+  - component: {fileID: 1658885222}
   m_Layer: 0
   m_Name: smallcrate no inner (4)
   m_TagString: Untagged
@@ -11254,6 +14158,100 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1658885218}
   m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1658885222
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658885218}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!1 &1678394705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1678394706}
+  - component: {fileID: 1678394708}
+  - component: {fileID: 1678394707}
+  m_Layer: 5
+  m_Name: RawImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1678394706
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678394705}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1709506043}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -68.9077, y: -25.07119}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1678394707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678394705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1678394708
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678394705}
+  m_CullTransparentMesh: 1
 --- !u!1 &1704198241
 GameObject:
   m_ObjectHideFlags: 0
@@ -11344,6 +14342,150 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704198241}
   m_Mesh: {fileID: -3526044742608369498, guid: 1f87388abfc564c45a5c699697aa711a, type: 3}
+--- !u!1 &1709506037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1709506043}
+  - component: {fileID: 1709506042}
+  - component: {fileID: 1709506041}
+  - component: {fileID: 1709506040}
+  - component: {fileID: 1709506039}
+  - component: {fileID: 1709506038}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1709506038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709506037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.3156223, g: 0.28288534, b: 0.3679245, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1709506039
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709506037}
+  m_CullTransparentMesh: 1
+--- !u!114 &1709506040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709506037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1709506041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709506037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1709506042
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709506037}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1709506043
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709506037}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1678394706}
+  - {fileID: 1941243526}
+  - {fileID: 215840356}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1721867397
 GameObject:
   m_ObjectHideFlags: 0
@@ -11355,6 +14497,7 @@ GameObject:
   - component: {fileID: 1721867398}
   - component: {fileID: 1721867400}
   - component: {fileID: 1721867399}
+  - component: {fileID: 1721867401}
   m_Layer: 0
   m_Name: smallcrate
   m_TagString: Untagged
@@ -11433,6 +14576,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721867397}
+  m_Mesh: {fileID: -361132155043324539, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1721867401
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721867397}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: -361132155043324539, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1736469208
 GameObject:
@@ -11572,6 +14737,7 @@ GameObject:
   - component: {fileID: 1747058686}
   - component: {fileID: 1747058688}
   - component: {fileID: 1747058687}
+  - component: {fileID: 1747058689}
   m_Layer: 0
   m_Name: smallcrate flat sides (5)
   m_TagString: Untagged
@@ -11650,6 +14816,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747058685}
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1747058689
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747058685}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1755168888
 GameObject:
@@ -11752,6 +14940,7 @@ GameObject:
   - component: {fileID: 1790921376}
   - component: {fileID: 1790921378}
   - component: {fileID: 1790921377}
+  - component: {fileID: 1790921379}
   m_Layer: 0
   m_Name: single crate (2)
   m_TagString: Untagged
@@ -11831,6 +15020,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1790921375}
   m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1790921379
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790921375}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1795275968
 GameObject:
   m_ObjectHideFlags: 0
@@ -11842,6 +15053,7 @@ GameObject:
   - component: {fileID: 1795275969}
   - component: {fileID: 1795275971}
   - component: {fileID: 1795275970}
+  - component: {fileID: 1795275972}
   m_Layer: 0
   m_Name: smallcrate flat sides
   m_TagString: Untagged
@@ -11921,6 +15133,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795275968}
   m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1795275972
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795275968}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1801110176
 GameObject:
   m_ObjectHideFlags: 0
@@ -11932,6 +15166,7 @@ GameObject:
   - component: {fileID: 1801110177}
   - component: {fileID: 1801110179}
   - component: {fileID: 1801110178}
+  - component: {fileID: 1801110180}
   m_Layer: 0
   m_Name: smallcrate flat sides (2)
   m_TagString: Untagged
@@ -12011,6 +15246,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801110176}
   m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1801110180
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801110176}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1810530072
 GameObject:
   m_ObjectHideFlags: 0
@@ -12022,6 +15279,7 @@ GameObject:
   - component: {fileID: 1810530073}
   - component: {fileID: 1810530075}
   - component: {fileID: 1810530074}
+  - component: {fileID: 1810530076}
   m_Layer: 0
   m_Name: smallcrate no inner (9)
   m_TagString: Untagged
@@ -12101,6 +15359,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1810530072}
   m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1810530076
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810530072}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1825854210
 GameObject:
   m_ObjectHideFlags: 0
@@ -12112,6 +15392,7 @@ GameObject:
   - component: {fileID: 1825854213}
   - component: {fileID: 1825854212}
   - component: {fileID: 1825854211}
+  - component: {fileID: 1825854214}
   m_Layer: 0
   m_Name: smallcrate flat sides (7)
   m_TagString: Untagged
@@ -12191,6 +15472,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -88.528}
+--- !u!64 &1825854214
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825854210}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1838207122
 GameObject:
   m_ObjectHideFlags: 0
@@ -12242,6 +15545,7 @@ GameObject:
   - component: {fileID: 1864680096}
   - component: {fileID: 1864680095}
   - component: {fileID: 1864680094}
+  - component: {fileID: 1864680097}
   m_Layer: 0
   m_Name: single crate flat sides
   m_TagString: Untagged
@@ -12321,6 +15625,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90.309}
+--- !u!64 &1864680097
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864680093}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 48378998208611145, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1897390627
 GameObject:
   m_ObjectHideFlags: 0
@@ -12332,6 +15658,7 @@ GameObject:
   - component: {fileID: 1897390630}
   - component: {fileID: 1897390629}
   - component: {fileID: 1897390628}
+  - component: {fileID: 1897390631}
   m_Layer: 0
   m_Name: smallcrate no inner (6)
   m_TagString: Untagged
@@ -12411,6 +15738,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 375138988}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 252.493}
+--- !u!64 &1897390631
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897390627}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1911138016
 GameObject:
   m_ObjectHideFlags: 0
@@ -12422,6 +15771,7 @@ GameObject:
   - component: {fileID: 1911138017}
   - component: {fileID: 1911138019}
   - component: {fileID: 1911138018}
+  - component: {fileID: 1911138020}
   m_Layer: 0
   m_Name: smallcrate flat sides (7)
   m_TagString: Untagged
@@ -12501,6 +15851,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1911138016}
   m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1911138020
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911138016}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1914016025
 GameObject:
   m_ObjectHideFlags: 0
@@ -12574,6 +15946,163 @@ Transform:
   - {fileID: 439069825}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1941243525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1941243526}
+  - component: {fileID: 1941243529}
+  - component: {fileID: 1941243528}
+  - component: {fileID: 1941243527}
+  m_Layer: 5
+  m_Name: showimg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1941243526
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941243525}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 830230027}
+  m_Father: {fileID: 1709506043}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1941243527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941243525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1941243528}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1678394705}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1941243525}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 215840355}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1941243528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941243525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1941243529
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941243525}
+  m_CullTransparentMesh: 1
 --- !u!1 &1978020349
 GameObject:
   m_ObjectHideFlags: 0
@@ -12585,6 +16114,7 @@ GameObject:
   - component: {fileID: 1978020350}
   - component: {fileID: 1978020352}
   - component: {fileID: 1978020351}
+  - component: {fileID: 1978020353}
   m_Layer: 0
   m_Name: single crate flat sides (1)
   m_TagString: Untagged
@@ -12664,6 +16194,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978020349}
   m_Mesh: {fileID: 48378998208611145, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1978020353
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978020349}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 48378998208611145, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1980533081
 GameObject:
   m_ObjectHideFlags: 0
@@ -12675,6 +16227,7 @@ GameObject:
   - component: {fileID: 1980533082}
   - component: {fileID: 1980533084}
   - component: {fileID: 1980533083}
+  - component: {fileID: 1980533085}
   m_Layer: 0
   m_Name: smallcrate flat sides (3)
   m_TagString: Untagged
@@ -12754,6 +16307,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1980533081}
   m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &1980533085
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980533081}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &1996018420
 GameObject:
   m_ObjectHideFlags: 0
@@ -12765,6 +16340,7 @@ GameObject:
   - component: {fileID: 1996018423}
   - component: {fileID: 1996018422}
   - component: {fileID: 1996018421}
+  - component: {fileID: 1996018424}
   m_Layer: 0
   m_Name: single crate (1)
   m_TagString: Untagged
@@ -12844,6 +16420,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 178.213}
+--- !u!64 &1996018424
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996018420}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3526044742608369498, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &2024487221
 GameObject:
   m_ObjectHideFlags: 0
@@ -12855,6 +16453,7 @@ GameObject:
   - component: {fileID: 2024487224}
   - component: {fileID: 2024487223}
   - component: {fileID: 2024487222}
+  - component: {fileID: 2024487225}
   m_Layer: 0
   m_Name: smallcrate flat sides (9)
   m_TagString: Untagged
@@ -12934,6 +16533,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -85.62}
+--- !u!64 &2024487225
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024487221}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &2055398200
 GameObject:
   m_ObjectHideFlags: 0
@@ -12945,6 +16566,7 @@ GameObject:
   - component: {fileID: 2055398201}
   - component: {fileID: 2055398203}
   - component: {fileID: 2055398202}
+  - component: {fileID: 2055398204}
   m_Layer: 0
   m_Name: smallcrate no inner (5)
   m_TagString: Untagged
@@ -13024,6 +16646,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2055398200}
   m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &2055398204
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055398200}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716914776112623724, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &2092332210
 GameObject:
   m_ObjectHideFlags: 0
@@ -13078,6 +16722,7 @@ GameObject:
   - component: {fileID: 2096607127}
   - component: {fileID: 2096607126}
   - component: {fileID: 2096607125}
+  - component: {fileID: 2096607128}
   m_Layer: 0
   m_Name: smallcrate flat sides (13)
   m_TagString: Untagged
@@ -13157,6 +16802,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1914016026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 5.248}
+--- !u!64 &2096607128
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096607124}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &2100919341
 GameObject:
   m_ObjectHideFlags: 0
@@ -13168,6 +16835,7 @@ GameObject:
   - component: {fileID: 2100919342}
   - component: {fileID: 2100919344}
   - component: {fileID: 2100919343}
+  - component: {fileID: 2100919345}
   m_Layer: 0
   m_Name: smallcrate flat sides (4)
   m_TagString: Untagged
@@ -13247,6 +16915,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2100919341}
   m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &2100919345
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100919341}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4263952223323278163, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1 &2105267670
 GameObject:
   m_ObjectHideFlags: 0
@@ -13258,6 +16948,7 @@ GameObject:
   - component: {fileID: 2105267671}
   - component: {fileID: 2105267673}
   - component: {fileID: 2105267672}
+  - component: {fileID: 2105267674}
   m_Layer: 0
   m_Name: single crate flat sidesntop (1)
   m_TagString: Untagged
@@ -13337,6 +17028,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2105267670}
   m_Mesh: {fileID: -1388573630571625986, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
+--- !u!64 &2105267674
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105267670}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1388573630571625986, guid: c35247362bb87b04884ecb2b4aa633d6, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -13347,3 +17060,5 @@ SceneRoots:
   - {fileID: 1914016026}
   - {fileID: 331826844}
   - {fileID: 1230532994}
+  - {fileID: 1709506043}
+  - {fileID: 703765978}
