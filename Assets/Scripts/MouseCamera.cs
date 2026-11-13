@@ -29,7 +29,8 @@ void Start()
 
         deltaMove = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")) * speed * Time.deltaTime;
 
-
+    }
+}
 
 //         // referencing https://discussions.unity.com/t/raycast-and-detect-tags/801551/10
 
@@ -74,19 +75,19 @@ void Start()
 
 
 
-         // 1. Convert screen coordinates (e.g., mouse position) to a world-space Ray
-         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-         RaycastHit hit;
+        //  // 1. Convert screen coordinates (e.g., mouse position) to a world-space Ray
+        //  Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        //  RaycastHit hit;
 
-         // 2. Cast the ray into the scene
-         if (Physics.Raycast(ray, out hit))
+        //  // 2. Cast the ray into the scene
+        //  if (Physics.Raycast(ray, out hit))
 
-         {
-             // Access information about the hit object
+        //  {
+        //      // Access information about the hit object
 
-             hitObject = hit.transform.gameObject;
-             hitObject.SetActive(false);
-             Debug.Log("Hit: " + hit.collider.name + " at position " + hit.point, hit.collider.gameObject);
+        //      hitObject = hit.transform.gameObject;
+        //      hitObject.SetActive(false);
+        //      Debug.Log("Hit: " + hit.collider.name + " at position " + hit.point, hit.collider.gameObject);
 
-         }
+        //  }
 
