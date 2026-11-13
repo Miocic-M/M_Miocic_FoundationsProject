@@ -1,8 +1,10 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.PackageManager;
 using UnityEngine;
 
-// Following Youtube Tutorial: https://youtu.be/CxI2OBdhLno Posted by: Royal Skies Accessed 22/10/2026
+// Following Youtube Tutorial: https://youtu.be/CxI2OBdhLno Posted by: Royal Skies. Accessed 13/11/2026
 
 public class MouseCamera : MonoBehaviour
 {
@@ -13,6 +15,7 @@ public class MouseCamera : MonoBehaviour
     public GameObject mover;
 
     public GameObject hitObject;
+    public GameObject hitInfo;
 
 void Start()
     {
@@ -32,12 +35,15 @@ void Start()
 
         // 2. Cast the ray into the scene
         if (Physics.Raycast(ray, out hit))
+
         {
             // Access information about the hit object
 
             hitObject = hit.transform.gameObject;
             hitObject.SetActive(false);
             Debug.Log("Hit: " + hit.collider.name + " at position " + hit.point, hit.collider.gameObject);
+
+           
         }
     }
 
