@@ -582,7 +582,7 @@ MonoBehaviour:
   deltaMove: {x: 0, y: 0, z: 0}
   speed: 1
   mover: {fileID: 421764492}
-  hitObject: {fileID: 0}
+  hitObject: {fileID: 2032336918}
   hitInfo: {fileID: 0}
 --- !u!1 &475193047
 GameObject:
@@ -1632,9 +1632,9 @@ SceneRoots:
   - {fileID: 421764495}
   - {fileID: 2032336924}
   - {fileID: 1412159279}
-  - {fileID: 1440770398}
-  - {fileID: 2143828168}
-  - {fileID: 137013250}
   - {fileID: 303928912}
   - {fileID: 2065681667}
   - {fileID: 1763683391}
+  - {fileID: 1440770398}
+  - {fileID: 2143828168}
+  - {fileID: 137013250}
