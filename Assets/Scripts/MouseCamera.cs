@@ -12,6 +12,8 @@ public class MouseCamera : MonoBehaviour
     public float speed = 1;
     public GameObject mover;
 
+    public GameObject hitObject;
+
 void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -22,7 +24,21 @@ void Start()
         turn.y += Input.GetAxis("Mouse Y") * sensitivity;
         transform.localRotation = Quaternion.Euler(-turn.y, turn.x, 0);
 
-        //deltaMove = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")) * speed * Time.deltaTime;
+        deltaMove = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")) * speed * Time.deltaTime;
+
+        // 1. Convert screen coordinates (e.g., mouse position) to a world-space Ray
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+
+        // 2. Cast the ray into the scene
+        if (Physics.Raycast(ray, out hit))
+        {
+            // Access information about the hit object
+
+            hitObject = hit.transform.gameObject;
+            hitObject.SetActive(false);
+            Debug.Log("Hit: " + hit.collider.name + " at position " + hit.point, hit.collider.gameObject);
+        }
     }
 
 }
