@@ -33,6 +33,8 @@ void Start()
         // code from https://youtu.be/iu5hw8WFmmQ Posted by: Royal Skies. Accessed 14/11/2026
         transform.Translate(Input.GetAxisRaw("Horizontal") * speed, 0, Input.GetAxisRaw("Vertical") * speed);
 
+
+
     }
 }
 
