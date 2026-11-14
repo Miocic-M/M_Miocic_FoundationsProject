@@ -1,6 +1,7 @@
 using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor.PackageManager;
 using UnityEngine;
 
@@ -29,8 +30,21 @@ void Start()
 
         deltaMove = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")) * speed * Time.deltaTime;
 
+        // code from https://youtu.be/iu5hw8WFmmQ Posted by: Royal Skies. Accessed 14/11/2026
+        transform.Translate(Input.GetAxisRaw("Horizontal") * speed, 0, Input.GetAxisRaw("Vertical") * speed);
+
     }
 }
+
+
+
+
+
+
+
+
+
+
 
 //         // referencing https://discussions.unity.com/t/raycast-and-detect-tags/801551/10
 
