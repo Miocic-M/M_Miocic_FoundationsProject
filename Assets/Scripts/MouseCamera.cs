@@ -48,7 +48,7 @@ void Start()
 
 
 
-//         // referencing https://discussions.unity.com/t/raycast-and-detect-tags/801551/10
+        // referencing https://discussions.unity.com/t/raycast-and-detect-tags/801551/10
 
 
 // public class PickUp1 : MonoBehaviour
@@ -56,11 +56,8 @@ void Start()
 
 //     public static bool IngredientCollected1 = false;
 
-
-
-
-
 //     void Update()
+
 //     {
 //         RaycastHit hit;
 
@@ -72,7 +69,6 @@ void Start()
 //                 if (hit.transform.CompareTag("Selectable")) Debug.Log("Object is selectable");
 //                 {
 //                     Debug.Log("If statement successful");
-//                     PickUpFunction();
 //                 }
 //             }
 //         }
@@ -87,6 +83,8 @@ void Start()
 //         gameObject.transform.Translate(0, 1000, 0);
 //     }
 // }
+
+
 
 
 
